@@ -3,7 +3,7 @@ import * as React from "react";
 import Link from "next/link";
 let menu_classList =
   "duration-1000 w-[20%] text-center top_menu text-xs md:text-base";
-let bar_position = [`0%`, `20%`, `40%`, `60%`, `80%`];
+let bar_position = ["ml-[0%]", "ml-[20%]", "ml-[40%]", "ml-[60%]", "ml-[80%]"];
 let bar_toggle = 0;
 
 export default function Menu() {
@@ -36,16 +36,18 @@ export default function Menu() {
   const toggle = (id) => {
     let element = document.querySelectorAll(".top_menu");
     let bar = document.getElementById("bar");
+    let remove = bar_position[bar_toggle];
+    let bufor = bar_position[id];
 
     for (let i = 0; i < element.length; i++) {
       element[i].classList.remove("font-extrabold");
     }
 
-    bar.classList.remove(`ml-[${bar_position[bar_toggle]}]`);
+    bar.classList.remove(remove);
 
     element[id].classList.add("font-extrabold");
 
-    bar.classList.add(`ml-[${bar_position[id]}]`);
+    bar.classList.add(bufor);
 
     bar_toggle = id;
   };
@@ -71,10 +73,13 @@ export default function Menu() {
             <Link href="/#footer">KONTAKT</Link>
           </div>
         </div>
-        <div
-          className="duration-1000 h-0.5 w-[20%] bg-black rounded"
-          id="bar"
-        ></div>
+        <div className="flex">
+          <div className="" id="bufor"></div>
+          <div
+            className="duration-1000 h-0.5 w-[20%] bg-black rounded"
+            id="bar"
+          ></div>
+        </div>
       </div>
     </nav>
   );
