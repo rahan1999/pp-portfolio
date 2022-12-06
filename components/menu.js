@@ -45,7 +45,7 @@ export default function Menu() {
 
     element[id].classList.add("font-extrabold");
 
-    bar.classList.add(`ml-[${bar_position[id]}]`);
+    bar.classList.add(`ml-[20%]`);
 
     bar_toggle = id;
   };
