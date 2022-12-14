@@ -12,3 +12,9 @@ html {
     --scroll-behavior: smooth!important;
     scroll-behavior: smooth!important;
     }
+
+    #top {
+        background-image: url(../images/BackgroundWave.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat
+    }
