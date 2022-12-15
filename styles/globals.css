@@ -14,7 +14,30 @@ html {
     }
 
     #top {
-        background-image: url(../images/BackgroundWave.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat
+        background-image: url(../images/Background1.jpg);
+        background-repeat: no-repeat;
+    }
+
+    #about {
+        background-image: url(../images/BackgroundWhite.jpg);
+    }
+
+    #about h1 {
+        background-image: url(../images/BackgroundBlur.jpg);
+    }
+
+    #aboutBox {
+        background-image: url(../images/BackgroundBlur.jpg);
+    }
+    
+    #cv {
+        background-image: url(../images/BackgroundWhite.jpg);
+    }
+
+    .cvContentName {
+        background-image: url(../images/BackgroundXLBlur.jpg);
+    }
+
+    .cvContentDesc { 
+        background-image: url(../images/BackgroundXXLBlur.jpg);
     }

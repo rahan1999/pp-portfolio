@@ -2,7 +2,10 @@ import Cvsection from "./cvsection";
 
 export default function Cv() {
   return (
-    <section id="cv" className="flex flex-col items-center bg-sky-500 ">
+    <section
+      id="cv"
+      className="bg-fixed bg-cover bg-no-repeat flex flex-col items-center bg-sky-500 "
+    >
       <div className="box h-1 w-1"></div>
       <h1 className="text-7xl my-20">CV</h1>
       <Cvsection

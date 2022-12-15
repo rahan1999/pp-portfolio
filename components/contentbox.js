@@ -25,11 +25,11 @@ export default function Contentbox({ title, description }) {
 
   return (
     <div
-      className="duration-1000 w-60 h-32 bg-white rounded-[2rem] flex flex-col items-center justify-between"
+      className="bg-fixed bg-cover bg-no-repeat cvContentDesc duration-1000 w-60 h-32 rounded-[2rem] flex flex-col items-center justify-between"
       id={title}
       onClick={extend}
     >
-      <div className="w-60 h-24 bg-gray-300 rounded-[2rem] flex justify-center items-center text-4xl">
+      <div className="bg-fixed bg-cover bg-no-repeat w-60 h-24 cvContentName rounded-[2rem] flex justify-center items-center text-4xl">
         <h2>
           {title}
           {description}

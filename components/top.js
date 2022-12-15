@@ -2,7 +2,7 @@ export default function Top() {
   return (
     <section
       id="top"
-      className="bg-fixed flex flex-col justify-between min-h-screen p-5 text-center"
+      className="bg-fixed bg-cover bg-no-repeat flex flex-col justify-between min-h-screen p-5 text-center"
     >
       <div className="box h-1 w-1"></div>
       <div className="h-10"></div>
