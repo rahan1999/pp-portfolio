@@ -53,7 +53,10 @@ export default function Menu() {
   };
 
   return (
-    <nav className="flex flex-row justify-around w-screen h-10 fixed px-3 z-10">
+    <nav
+      id="menu"
+      className="bg-fixed bg-cover bg-no-repeat flex flex-row justify-around w-screen md:ml-[5%] md:w-[90%] h-10 fixed px-3 z-10 rounded-[2rem]"
+    >
       <img src="..." className="hidden lg:block" />
       <div className="flex flex-col justify-evenly w-full lg:w-1/2 ">
         <div className="flex flex-row justify-between align-middle">

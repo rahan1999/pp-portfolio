@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-fixed bg-cover bg-no-repeat flex items-center justify-end min-h-screen p-2 md:p-9"
+      className="about bg-fixed bg-cover bg-no-repeat flex items-center justify-end min-h-screen p-2 md:p-9"
     >
       <div className="box h-1 w-1"></div>
       <div

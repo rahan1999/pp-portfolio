@@ -18,11 +18,15 @@ html {
         background-repeat: no-repeat;
     }
 
-    #about {
+    .about {
         background-image: url(../images/BackgroundWhite.jpg);
     }
 
     #about h1 {
+        background-image: url(../images/BackgroundBlur.jpg);
+    }
+
+    #cv h1 {
         background-image: url(../images/BackgroundBlur.jpg);
     }
 
@@ -40,4 +44,12 @@ html {
 
     .cvContentDesc { 
         background-image: url(../images/BackgroundXXLBlur.jpg);
+    }
+
+    #menu {
+        background-image: url(../images/backgroundMenu.jpg);
+    }
+
+    .topBox {
+        background-image: url(../images/backgroundBox.jpg);
     }
