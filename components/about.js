@@ -1,28 +1,34 @@
+import Image from "next/image";
+import portret from "../images/portretAbout.png";
+
 export default function About() {
   return (
     <section
       id="about"
-      className="about bg-fixed bg-cover bg-no-repeat flex items-center justify-end min-h-screen p-2 md:p-9"
+      className="about bg-fixed bg-cover bg-no-repeat flex items-center justify-end min-h-screen p-1 md:p-9"
     >
       <div className="box h-1 w-1"></div>
       <div
         id="aboutBox"
-        className="bg-cover bg-fixed bg-no-repeat relative  bottom-[15%] right-[60%] w-[26rem] h-[26rem] rounded-full"
+        className="bg-cover bg-fixed bg-no-repeat relative  bottom-[15%] right-[60%] w-[26rem] h-[26rem] rounded-full flex col justify-center overflow-hidden"
       >
-        <img src="..." />
+        <Image src={portret} height={400} className="relative top-5"></Image>
       </div>
-      <div className="md:absolute md:w-1/2 text-center">
+      <div className="md:absolute md:w-1/2 text-center my-5">
         <h1 className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent text-7xl mb-7">
-          Lorem imsum
+          Hej!
         </h1>
         <h4 className="text-3xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          soluta non voluptatum quidem. Distinctio, debitis! Inventore omnis
-          illo totam. Obcaecati, totam qui doloribus amet esse itaque. Qui
-          quaerat dolorum consequatur! Minima sequi praesentium quidem quam
-          laboriosam! Adipisci minima aliquam asperiores ab qui. Iste in commodi
-          corrupti quibusdam, laboriosam similique fuga. Officia labore
-          accusantium soluta nihil eius aliquam modi totam et.
+          mam na imię Paweł i jestem studentem pierwszego roku Informatyki.
+          Odkąd pamiętam technologia miała szczególne miejsce w moim szerokim
+          kręgu zainteresowań. Uwielbiam obserwować ciągle rozwijający się
+          potencjał otaczających nas urządzeń i to jak powoli, lecz
+          systematyczne stają się nierozłącznym elementem naszej codzienności.
+          Smartphony, SmartTV, Smart-Lodówki czy wszelkiego rodzaju SmartWerable
+          to tylko kilka przykładów tego zjawiska a moja reakcja na to wszystko
+          to było zdecydowane „Muszę brać w tym udział!”. Nie tylko jako bierny
+          konsument, ale jako współtwórca świata w którym wszystko jest ze sobą
+          powiązane.
         </h4>
       </div>
     </section>

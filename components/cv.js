@@ -6,14 +6,24 @@ export default function Cv() {
       id="cv"
       className="bg-fixed bg-cover bg-no-repeat flex flex-col items-center bg-sky-500 "
     >
-      <div className="box h-1 w-1"></div>
       <h1 className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent text-7xl my-20">
         CV
       </h1>
       <Cvsection
         main="Umiejętności"
-        titles="oki-ok2-ok3-ok4"
-        descriptions="des1-des2-des3-des4"
+        titles="HTML, CSS i JS-React.js, Next.js-Git, Git HUB-Komendy Unix-Affinity Designer-Tailwind"
+        descriptions="Trzy filary aplikacji webowych. Poświęciłem każdemu z nich należyty czas aby osiągnąć ich głębokie zrozumienie i móc zabrać się da nauki opartych na nich bibliotek.-Framework'i na których aktualnie jestem skupiony. Głęboko zafascynowały mnie one możliwościami jakie dają do tworzenia aplikacji webowych.-Umiem się posługiwać tymi popularnymi systemami do zarządzania wersją. Na Git HUB zamieszczam też co ciekawsze napisane prze zemnie programy.-Znam podstawy posługiwanie się terminalem w systemach operacyjnych typu Linux czy MacOS.-Aktualnie mój ulubiony program do tworzenia grafiki komputerowej. To w nim tworze różne obrazki i projekty stron internetowych.-Wraz z Next.js jest jednym z nowszych narzędzi w moim arsenale do tworzenie responsywnych witryn internetowych."
+      ></Cvsection>
+      <div className="box h-1 w-1"></div>
+      <Cvsection
+        main="Języki"
+        titles="Angielski"
+        descriptions="Staram się dbać o moje umiejętności posługiwania się najbardziej uniwersalnym językiem świata. Aktualnie mogę pochwalić się komunikatywnością na poziomie B1."
+      ></Cvsection>
+      <Cvsection
+        main="Zainteresowania"
+        titles="Sport-Naprawa i konserwacja-Grafika komputerowa-Lego-Technologia"
+        descriptions="Aktywność fizyczna jest bardzo ważnym elementem mojego życia. Codzienne 10 km na rowerze wraz z treningami na siłowni lub basenie, to jest to co mnie relaksuje.-Mało jest tak satysfakcjonujących rzeczy jak przywrócenie przedmiotowi oryginalnej sprawności. Niesamowite jest tez jak często wystarczy coś wyczyścić żeby znowu pracowało jak dawniej.-Od małych ikonek po tapety 4K. Uwielbiam proces stopniowego przelewania mojej wizji na ekran komputera.-Układanie klocków okazało się być zajęciem stymulującym na wielu płaszczyznach. Połączenie skupienia, kreatywności i determinacji daje efekt w postaci małej, kanciastej sztuki.-Uwielbiam zagłębiać się w specyfikacje techniczne i porównywać różne produkty. Zawsze nurtują mnie nie oczywiste pytania: „Dla jakiej grupy docelowej może być ten produkt kierowany?”, „Co go wyróżnia od konkurencji w tej kategorii cenowej?” i najważniejsze: „Czy ma silniczki haptyczne czy zwykłą wibracje?”"
       ></Cvsection>
     </section>
   );

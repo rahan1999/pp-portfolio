@@ -14,42 +14,75 @@ html {
     }
 
     #top {
-        background-image: url(../images/Background1.jpg);
-        background-repeat: no-repeat;
+        background-image: url(../images/Background1.png);
     }
 
     .about {
-        background-image: url(../images/BackgroundWhite.jpg);
+        background-image: url(../images/BackgroundWhite.png);
     }
 
     #about h1 {
-        background-image: url(../images/BackgroundBlur.jpg);
+        background-image: url(../images/BackgroundBlur.png);
     }
 
     #cv h1 {
-        background-image: url(../images/BackgroundBlur.jpg);
+        background-image: url(../images/BackgroundBlur.png);
     }
 
     #aboutBox {
-        background-image: url(../images/BackgroundBlur.jpg);
+        background-image: url(../images/BackgroundBlur.png);
     }
     
     #cv {
-        background-image: url(../images/BackgroundWhite.jpg);
+        background-image: url(../images/BackgroundWhite.png);
     }
 
     .cvContentName {
-        background-image: url(../images/BackgroundXLBlur.jpg);
+        background-image: url(../images/BackgroundXLBlur.png);
     }
 
     .cvContentDesc { 
-        background-image: url(../images/BackgroundXXLBlur.jpg);
+        background-image: url(../images/BackgroundXXLBlur.png);
     }
 
     #menu {
-        background-image: url(../images/backgroundMenu.jpg);
+        background-image: url(../images/backgroundMenu.png);
     }
 
     .topBox {
-        background-image: url(../images/backgroundBox.jpg);
+        background-image: url(../images/backgroundBox.png);
+    }
+
+    #footer {
+        background-image: url(../images/BackgroundWhite.png);
+    }
+    
+    #contact {
+        background-image: url(../images/BackgroundXXLBlur.png);
+
+    }
+
+    #mark {
+        background-image: url(../images/Background1.png);
+    }
+
+    #portfolio {
+        background-image: url(../images/BackgroundWhite.png);
+    }
+
+    #portfolio h1 {
+
+        background-image: url(../images/BackgroundBlur.png);
+    }
+
+    #footer h1 {
+        background-image: url(../images/BackgroundBlur.png);
+    }
+
+    .highlight {
+        background-image: url(../images/Background1.png);
+    }
+
+    .card {
+        background-image: url(../images/BackgroundXXLBlur.png);
     }

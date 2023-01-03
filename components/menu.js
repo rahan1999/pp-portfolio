@@ -1,6 +1,8 @@
 import * as React from "react";
-
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../images/logo.png";
+
 let menu_classList =
   "duration-1000 w-[20%] text-center top_menu text-xs md:text-base";
 let bar_position = ["ml-[0%]", "ml-[20%]", "ml-[40%]", "ml-[60%]", "ml-[80%]"];
@@ -57,8 +59,8 @@ export default function Menu() {
       id="menu"
       className="bg-fixed bg-cover bg-no-repeat flex flex-row justify-around w-screen md:ml-[5%] md:w-[90%] h-10 fixed px-3 z-10 rounded-[2rem]"
     >
-      <img src="..." className="hidden lg:block" />
-      <div className="flex flex-col justify-evenly w-full lg:w-1/2 ">
+      <Image src={logo} width={80} className="m-1 hidden md:block"></Image>
+      <div className="flex flex-col justify-evenly w-full lg:w-3/4 ">
         <div className="flex flex-row justify-between align-middle">
           <div className={`font-extrabold ${menu_classList}`}>
             <Link href="/#">TOP</Link>
@@ -70,7 +72,7 @@ export default function Menu() {
             <Link href="/#cv">CV</Link>
           </div>
           <div className={menu_classList}>
-            <Link href="/#">PORTFOLIO</Link>
+            <Link href="/#portfolio">PORTFOLIO</Link>
           </div>
           <div className={menu_classList}>
             <Link href="/#footer">KONTAKT</Link>
