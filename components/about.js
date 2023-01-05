@@ -19,7 +19,7 @@ export default function About() {
           Hej!
         </h1>
         <h4 className="text-3xl">
-          mam na imię Paweł i jestem studentem pierwszego roku Informatyki.
+          Mam na imię Paweł i jestem studentem pierwszego roku Informatyki.
           Odkąd pamiętam technologia miała szczególne miejsce w moim szerokim
           kręgu zainteresowań. Uwielbiam obserwować ciągle rozwijający się
           potencjał otaczających nas urządzeń i to jak powoli, lecz
