@@ -5,17 +5,17 @@ export default function About() {
   return (
     <section
       id="about"
-      className="about bg-fixed bg-cover bg-no-repeat flex items-center justify-end min-h-screen p-1 md:p-9"
+      className="about flex min-h-screen items-center justify-end bg-cover bg-fixed bg-no-repeat p-1 md:p-9"
     >
       <div className="box h-1 w-1"></div>
       <div
         id="aboutBox"
-        className="bg-cover bg-fixed bg-no-repeat relative  bottom-[15%] right-[60%] w-[26rem] h-[26rem] rounded-full flex col justify-center overflow-hidden"
+        className="col relative bottom-[15%] right-[60%]  flex h-[26rem] w-[26rem] justify-center overflow-hidden rounded-full bg-cover bg-fixed bg-no-repeat"
       >
         <Image src={portret} height={400} className="relative top-5"></Image>
       </div>
-      <div className="md:absolute md:w-1/2 text-center my-5">
-        <h1 className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent text-7xl mb-7">
+      <div className="my-5 text-center md:absolute md:w-1/2">
+        <h1 className="mb-7 bg-cover bg-fixed bg-clip-text bg-no-repeat text-7xl text-transparent">
           Hej!
         </h1>
         <h4 className="text-3xl">

@@ -57,10 +57,10 @@ export default function Menu() {
   return (
     <nav
       id="menu"
-      className="bg-fixed bg-cover bg-no-repeat flex flex-row justify-around w-screen md:ml-[5%] md:w-[90%] h-10 fixed px-3 z-10 rounded-[2rem]"
+      className="fixed z-10 flex h-10 w-screen flex-row justify-around rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-3 md:ml-[5%] md:w-[90%]"
     >
       <Image src={logo} width={80} className="m-1 hidden md:block"></Image>
-      <div className="flex flex-col justify-evenly w-full lg:w-3/4 ">
+      <div className="flex w-full flex-col justify-evenly lg:w-3/4 ">
         <div className="flex flex-row justify-between align-middle">
           <div className={`font-extrabold ${menu_classList}`}>
             <Link href="/#">TOP</Link>
@@ -81,7 +81,7 @@ export default function Menu() {
         <div className="flex">
           <div className="" id="bufor"></div>
           <div
-            className="duration-1000 h-0.5 w-[20%] bg-black rounded"
+            className="h-0.5 w-[20%] rounded bg-black duration-1000"
             id="bar"
           ></div>
         </div>

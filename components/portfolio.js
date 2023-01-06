@@ -5,13 +5,13 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="bg-fixed bg-cover bg-no-repeat min-h-screen flex flex-col items-center"
+      className="flex min-h-screen flex-col items-center bg-cover bg-fixed bg-no-repeat"
     >
       <div className="box h-1 w-1"></div>
-      <h1 className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent text-7xl text-center ">
+      <h1 className="bg-cover bg-fixed bg-clip-text bg-no-repeat text-center text-7xl text-transparent ">
         PORTFOLIO
       </h1>
-      <div className="card bg-fixed bg-cover bg-no-repea w-[90%] md:w-1/4 rounded-[2rem] flex flex-col items-center text-center text-lg py-8 px-3 mt-20 shadow-2xl hover:shadow-md duration-1000 ">
+      <div className="card bg-no-repea mt-20 flex w-[90%] flex-col items-center rounded-[2rem] bg-cover bg-fixed py-8 px-3 text-center text-lg shadow-2xl duration-1000 hover:shadow-md md:w-1/4 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -29,7 +29,7 @@ export default function Portfolio() {
           przejrzeć surowy kod mojej witryny jak i również kilka innych
           mniejszych programów które napisałem.
         </p>
-        <div className="border-2 border-white hover:bg-white duration-1000 rounded-md w-36 mx-1.5">
+        <div className="mx-1.5 w-36 rounded-md border-2 border-white duration-1000 hover:bg-white">
           <Link
             href="https://github.com/rahan1999?tab=repositories"
             className="text-3xl"

@@ -30,18 +30,18 @@ export default function Contentbox({ title, description }) {
 
   return (
     <div
-      className="bg-fixed bg-cover bg-no-repeat cvContentDesc duration-1000 w-60 h-32 my-5 rounded-[2rem] flex flex-col items-center justify-between cursor-pointer shadow-md hover:shadow-sm"
+      className="cvContentDesc my-5 flex h-32 w-60 cursor-pointer flex-col items-center justify-between rounded-[2rem] bg-cover bg-fixed bg-no-repeat shadow-md duration-1000 hover:shadow-sm"
       id={title}
       onClick={extend}
     >
-      <div className="text-center bg-fixed bg-cover bg-no-repeat w-60 h-24 cvContentName rounded-[2rem] flex justify-center items-center text-4xl">
+      <div className="cvContentName flex h-24 w-60 items-center justify-center rounded-[2rem] bg-cover bg-fixed bg-no-repeat text-center text-4xl">
         <h2>{title}</h2>
       </div>
-      <div id={title + "_desc"} className="hidden text-center text-xl p-6">
+      <div id={title + "_desc"} className="hidden p-6 text-center text-xl">
         {description}
       </div>
       <div
-        className="duration-1000 border-b-2 border-r-2 border-black w-6 h-6 m-2 rotate-45"
+        className="m-2 h-6 w-6 rotate-45 border-b-2 border-r-2 border-black duration-1000"
         id={title + "_arrow"}
       ></div>
     </div>

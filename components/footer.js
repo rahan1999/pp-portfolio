@@ -2,33 +2,33 @@ export default function Footer() {
   return (
     <footer
       id="footer"
-      className="bg-fixed bg-cover bg-no-repeat w-[100%] flex flex-col items-center"
+      className="flex w-[100%] flex-col items-center bg-cover bg-fixed bg-no-repeat"
     >
       <div className="box h-1 w-1"></div>
-      <h1 className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent text-7xl my-10">
+      <h1 className="my-10 bg-cover bg-fixed bg-clip-text bg-no-repeat text-7xl text-transparent">
         KONTAKT
       </h1>
 
       <div
         id="contact"
-        className="bg-fixed bg-cover bg-no-repeat h-auto w-[90%] md:w-1/2 bg-black rounded-[2rem] p-5 mt-20 mb-14 shadow-lg"
+        className="mt-20 mb-14 h-auto w-[90%] rounded-[2rem] bg-black bg-cover bg-fixed bg-no-repeat p-5 shadow-lg md:w-1/2"
       >
-        <div className="flex flex-col md:flex-row md:justify-around w-full mt-10 text-xl">
+        <div className="mt-10 flex w-full flex-col text-xl md:flex-row md:justify-around">
           <p>
-            <span className="highlight bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent">
+            <span className="highlight bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent">
               Tel.:
             </span>
             660 808 888
           </p>
           <p>
-            <span className="highlight bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent">
+            <span className="highlight bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent">
               E-mail.:
             </span>
             podolakpawe7@icloud.com
           </p>
         </div>
-        <p className="text-center text-lg pt-8 pb-2">Zapraszam również na: </p>
-        <div className="flex justify-around w-full">
+        <p className="pt-8 pb-2 text-center text-lg">Zapraszam również na: </p>
+        <div className="flex w-full justify-around">
           <a href="https://github.com/rahan1999?tab=repositories">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function Footer() {
               <path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"></path>
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/paweł-podolak-94999a182/">
+          <a href="https://www.linkedin.com/in/paweł-podolak-94999a182/ ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -57,7 +57,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <p className="text-center m-5">
+      <p className="m-5 text-center">
         „Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji
         zgodnie z art. 6 ust. 1 lit. a Rozporządzeniem Parlamentu Europejskiego
         i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób
@@ -68,7 +68,7 @@ export default function Footer() {
 
       <p
         id="mark"
-        className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent"
+        className="bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent"
       >
         &#169; 2023 Paweł Podolak
       </p>

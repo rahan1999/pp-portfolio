@@ -4,9 +4,9 @@ export default function Cv() {
   return (
     <section
       id="cv"
-      className="bg-fixed bg-cover bg-no-repeat flex flex-col items-center bg-sky-500 "
+      className="flex flex-col items-center bg-sky-500 bg-cover bg-fixed bg-no-repeat "
     >
-      <h1 className="bg-fixed bg-cover bg-no-repeat bg-clip-text text-transparent text-7xl my-20">
+      <h1 className="my-20 bg-cover bg-fixed bg-clip-text bg-no-repeat text-7xl text-transparent">
         CV
       </h1>
       <Cvsection
