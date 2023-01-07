@@ -1,4 +1,4 @@
-import Cvsection from "./cvsection";
+import Cvsection from "./cvSection";
 
 export default function Cv() {
   return (

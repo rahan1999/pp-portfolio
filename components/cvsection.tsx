@@ -1,12 +1,12 @@
-import Contentbox from "./contentbox";
+import Contentbox from "./contentBox";
 
 export default function Cvsection({ main, titles, descriptions }) {
-  const titlearray = titles.split("-");
-  const descriptionarray = descriptions.split("-");
+  const titlearray: string[] = titles.split("-");
+  const descriptionarray: string[] = descriptions.split("-");
 
   let contenttitle = [];
 
-  titlearray.forEach((item, index) => {
+  titlearray.forEach((item: string, index: number) => {
     contenttitle.push(
       <Contentbox
         key={item}

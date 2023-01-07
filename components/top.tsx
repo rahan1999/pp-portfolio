@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import portret from "../images/PortretTop.png";
+import portret from "../images/portret-top.png";
 
 export default function Top() {
   return (
@@ -22,19 +22,27 @@ export default function Top() {
                 </h3>
               </div>
               <div className="flex flex-row justify-center">
-                <div className="mx-1.5 w-36 rounded-md border-2 border-white duration-1000 hover:bg-white">
-                  <Link href="/#about" className="text-3xl">
+                <div className="mx-1.5 flex w-36 flex-col items-center">
+                  <Link
+                    href="/#about"
+                    className="relative bottom-0 text-3xl font-bold duration-1000 hover:bottom-1"
+                  >
                     WIĘCEJ
                   </Link>
+                  <div className="beam mt-2 h-[2px] w-[90%] bg-black bg-cover  bg-fixed bg-no-repeat"></div>
                 </div>
-                <div className="mx-1.5 w-36 rounded-md border-2 border-white/70 bg-white/70 duration-1000 hover:border-white hover:bg-white">
-                  <Link href="/#footer" className="text-3xl">
+                <div className="mx-1.5 flex w-36 flex-col items-center">
+                  <Link
+                    href="/#footer"
+                    className="relative bottom-0 text-3xl font-bold duration-1000 hover:bottom-1"
+                  >
                     KONTAKT
                   </Link>
+                  <div className="beam mt-2 h-[2px] w-[90%] bg-black bg-cover bg-fixed bg-no-repeat"></div>
                 </div>
               </div>
             </div>
-            <Image src={portret} width={400}></Image>
+            <Image src={portret} alt="Portret" width={400}></Image>
           </div>
           <div className="my-10 flex justify-end text-lg md:my-0">
             <div className="topBox rounded-[2rem] bg-cover bg-fixed bg-no-repeat md:w-1/3">

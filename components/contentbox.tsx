@@ -1,13 +1,13 @@
 export default function Contentbox({ title, description }) {
-  let toggle = 0;
-  let size_up = ["w-[30rem]", "h-96", "rotate-[225deg]"];
-  let size_down = ["w-60", "h-32", "rotate-45"];
+  let toggle: number = 0;
+  let size_up: string[] = ["w-[30rem]", "h-96", "rotate-[225deg]"];
+  let size_down: string[] = ["w-60", "h-32", "rotate-45"];
 
-  const extend = () => {
-    let element = document.getElementById(`${title}`);
-    let elementarrow = document.getElementById(`${title + "_arrow"}`);
-    let element_array = [element, element, elementarrow];
-    let element_desc = document.getElementById(`${title + "_desc"}`);
+  const extend = (): void => {
+    let element: HTMLElement = document.getElementById(`${title}`);
+    let elementarrow: HTMLElement = document.getElementById(`${title + "_arrow"}`);
+    let element_array: HTMLElement[] = [element, element, elementarrow];
+    let element_desc: HTMLElement = document.getElementById(`${title + "_desc"}`);
 
     if (toggle === 0) {
       for (let i = 0; i < 3; i++) {

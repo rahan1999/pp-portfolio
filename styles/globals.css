@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "EncodeSansExpanded";
+    src: url("Encode_Sans_Expanded/EncodeSansExpanded-Light.ttf");
+  }
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: EncodeSansExpanded, Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -14,75 +20,79 @@ html {
     }
 
     #top {
-        background-image: url(../images/Background1.png);
+        background-image: url(../images/background-1.png);
     }
 
     .about {
-        background-image: url(../images/BackgroundWhite.png);
+        background-image: url(../images/background-white.png);
     }
 
     #about h1 {
-        background-image: url(../images/BackgroundBlur.png);
+        background-image: url(../images/background-blur.png);
     }
 
     #cv h1 {
-        background-image: url(../images/BackgroundBlur.png);
+        background-image: url(../images/background-blur.png);
     }
 
     #aboutBox {
-        background-image: url(../images/BackgroundBlur.png);
+        background-image: url(../images/background-blur.png);
     }
     
     #cv {
-        background-image: url(../images/BackgroundWhite.png);
+        background-image: url(../images/background-white.png);
     }
 
     .cvContentName {
-        background-image: url(../images/BackgroundXLBlur.png);
+        background-image: url(../images/background-xl-blur.png);
     }
 
     .cvContentDesc { 
-        background-image: url(../images/BackgroundXXLBlur.png);
+        background-image: url(../images/background-xxl-blur.png);
     }
 
     #menu {
-        background-image: url(../images/backgroundMenu.png);
+        background-image: url(../images/background-menu.png);
     }
 
     .topBox {
-        background-image: url(../images/backgroundBox.png);
+        background-image: url(../images/background-box.png);
     }
 
     #footer {
-        background-image: url(../images/BackgroundWhite.png);
+        background-image: url(../images/background-white.png);
     }
     
     #contact {
-        background-image: url(../images/BackgroundXXLBlur.png);
+        background-image: url(../images/background-xxl-blur.png);
 
     }
 
     #mark {
-        background-image: url(../images/Background1.png);
+        background-image: url(../images/background-1.png);
     }
 
     #portfolio {
-        background-image: url(../images/BackgroundWhite.png);
+        background-image: url(../images/background-white.png);
     }
 
     #portfolio h1 {
 
-        background-image: url(../images/BackgroundBlur.png);
+        background-image: url(../images/background-blur.png);
     }
 
     #footer h1 {
-        background-image: url(../images/BackgroundBlur.png);
+        background-image: url(../images/background-blur.png);
     }
 
     .highlight {
-        background-image: url(../images/Background1.png);
+        background-image: url(../images/background-1.png);
     }
 
     .card {
-        background-image: url(../images/BackgroundXXLBlur.png);
+        background-image: url(../images/background-xxl-blur.png);
+    }
+
+    .beam {
+        background-image: url(../images/background-1.png);
     }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portret from "../images/portretAbout.png";
+import portret from "../images/portret-about.png";
 
 export default function About() {
   return (
@@ -12,7 +12,7 @@ export default function About() {
         id="aboutBox"
         className="col relative bottom-[15%] right-[60%]  flex h-[26rem] w-[26rem] justify-center overflow-hidden rounded-full bg-cover bg-fixed bg-no-repeat"
       >
-        <Image src={portret} height={400} className="relative top-5"></Image>
+        <Image src={portret} height={400} alt="Main portret" className="relative top-5"></Image>
       </div>
       <div className="my-5 text-center md:absolute md:w-1/2">
         <h1 className="mb-7 bg-cover bg-fixed bg-clip-text bg-no-repeat text-7xl text-transparent">
