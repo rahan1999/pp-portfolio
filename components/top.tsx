@@ -25,20 +25,20 @@ export default function Top() {
                 <div className="mx-1.5 flex w-36 flex-col items-center">
                   <Link
                     href="/#about"
-                    className="relative bottom-0 text-3xl font-bold duration-1000 hover:bottom-1"
+                    className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
                   >
                     WIĘCEJ
                   </Link>
-                  <div className="beam mt-2 h-[2px] w-[90%] bg-black bg-cover  bg-fixed bg-no-repeat"></div>
+                  <div className="beam mt-2 h-[2px] w-[90%] bg-cover  bg-fixed bg-no-repeat"></div>
                 </div>
                 <div className="mx-1.5 flex w-36 flex-col items-center">
                   <Link
                     href="/#footer"
-                    className="relative bottom-0 text-3xl font-bold duration-1000 hover:bottom-1"
+                    className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
                   >
                     KONTAKT
                   </Link>
-                  <div className="beam mt-2 h-[2px] w-[90%] bg-black bg-cover bg-fixed bg-no-repeat"></div>
+                  <div className="beam mt-2 h-[2px] w-[90%] bg-cover  bg-fixed bg-no-repeat"></div>
                 </div>
               </div>
             </div>

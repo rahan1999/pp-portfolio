@@ -5,7 +5,13 @@ import logo from "../images/logo.png";
 
 let menu_classList: string =
   "duration-1000 w-[20%] text-center top_menu text-xs md:text-base bottom-0 hover:bottom-1 duration-1000 relative";
-let bar_position: string[] = ["ml-[0%]", "ml-[20%]", "ml-[40%]", "ml-[60%]", "ml-[80%]"];
+let bar_position: string[] = [
+  "ml-[0%]",
+  "ml-[20%]",
+  "ml-[40%]",
+  "ml-[60%]",
+  "ml-[80%]",
+];
 let bar_toggle: number = 0;
 
 export default function Menu() {
@@ -59,7 +65,12 @@ export default function Menu() {
       id="menu"
       className="fixed z-10 flex h-10 w-screen flex-row justify-around rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-3 md:ml-[5%] md:w-[90%]"
     >
-      <Image src={logo} width={80} alt="Logo" className="m-1 hidden md:block"></Image>
+      <Image
+        src={logo}
+        width={80}
+        alt="Logo"
+        className="m-1 hidden md:block"
+      ></Image>
       <div className="flex w-full flex-col justify-evenly lg:w-3/4 ">
         <div className="flex flex-row justify-between align-middle">
           <div className={`font-extrabold ${menu_classList}`}>
@@ -81,7 +92,7 @@ export default function Menu() {
         <div className="flex">
           <div className="" id="bufor"></div>
           <div
-            className="h-0.5 w-[20%] rounded bg-black duration-1000"
+            className="beam h-0.5 w-[20%] rounded bg-cover bg-fixed bg-no-repeat duration-1000"
             id="bar"
           ></div>
         </div>
