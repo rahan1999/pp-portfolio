@@ -7,7 +7,7 @@ export default function Top() {
   return (
     <section
       id="top"
-      className="flex min-h-screen flex-col justify-between bg-cover bg-fixed bg-no-repeat text-center "
+      className="flex min-h-screen flex-col justify-between text-center "
     >
       <div className="p-5">
         <div className="box h-1 w-1"></div>
@@ -52,11 +52,10 @@ export default function Top() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-row justify-center md:relative md:bottom-10">
           <div className="h-8 w-8 rotate-45 border-b-2 border-r-2"></div>
         </div>
       </div>
-      <div className="about h-16 w-full rounded-t-[100%] bg-cover bg-fixed bg-no-repeat"></div>
     </section>
   );
 }

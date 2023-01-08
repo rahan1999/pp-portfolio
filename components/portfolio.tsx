@@ -8,10 +8,10 @@ export default function Portfolio() {
       className="flex min-h-screen flex-col items-center bg-cover bg-fixed bg-no-repeat"
     >
       <div className="box h-1 w-1"></div>
-      <h1 className="bg-cover bg-fixed bg-clip-text bg-no-repeat text-center text-7xl text-transparent ">
-        PORTFOLIO
-      </h1>
-      <div className="card bg-no-repea mt-20 flex w-[90%] flex-col items-center rounded-[2rem] bg-cover bg-fixed py-8 px-3 text-center text-lg shadow-2xl duration-1000 hover:shadow-md md:w-1/4 ">
+      <div className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-7xl">
+        <h1 className="text-center text-7xl">PORTFOLIO</h1>
+      </div>
+      <div className="card bg-no-repea mt-10 flex w-[90%] flex-col items-center rounded-[2rem] bg-cover bg-fixed py-8 px-3 text-center text-lg md:w-1/4 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -29,13 +29,14 @@ export default function Portfolio() {
           przejrzeć surowy kod mojej witryny jak i również kilka innych
           mniejszych programów które napisałem.
         </p>
-        <div className="mx-1.5 w-36 rounded-md border-2 border-white duration-1000 hover:bg-white">
+        <div className="mx-1.5 flex w-36 flex-col items-center">
           <Link
             href="https://github.com/rahan1999?tab=repositories"
-            className="text-3xl"
+            className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
           >
             GitHub
           </Link>
+          <div className="beam mt-2 h-[2px] w-[90%] bg-cover  bg-fixed bg-no-repeat"></div>
         </div>
       </div>
     </section>

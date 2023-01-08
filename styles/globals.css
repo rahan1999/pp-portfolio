@@ -12,15 +12,15 @@ body {
     flex-direction: column;
     justify-content: center;
     font-family: EncodeSansExpanded, Arial, Helvetica, sans-serif;
+    background-image: url(../images/background-1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 html {
     --scroll-behavior: smooth!important;
     scroll-behavior: smooth!important;
-    }
-
-    #top {
-        background-image: url(../images/background-1.png);
     }
 
     .about {
@@ -31,26 +31,25 @@ html {
         background-image: url(../images/background-blur.png);
     }
 
-    #cv h1 {
-        background-image: url(../images/background-blur.png);
+    .sectionTitles {
+        background-image: url(../images/background-box.png);
     }
 
     #aboutBox {
         background-image: url(../images/background-blur.png);
     }
     
-    #cv {
+    .cvSections {
         background-image: url(../images/background-white.png);
     }
 
-    .cvContentName {
-        background-image: url(../images/background-xl-blur.png);
+    .cvTitles {
+        background-image: url(../images/background-white.png);
     }
 
-    .cvContentDesc { 
-        background-image: url(../images/background-xxl-blur.png);
+    .cvTitles h1 {
+        background-image: url(../images/background-blur.png);
     }
-
     #menu {
         background-image: url(../images/background-menu.png);
     }
@@ -58,31 +57,10 @@ html {
     .topBox {
         background-image: url(../images/background-box.png);
     }
-
-    #footer {
-        background-image: url(../images/background-white.png);
-    }
     
     #contact {
-        background-image: url(../images/background-xxl-blur.png);
-
-    }
-
-    #mark {
-        background-image: url(../images/background-1.png);
-    }
-
-    #portfolio {
         background-image: url(../images/background-white.png);
-    }
 
-    #portfolio h1 {
-
-        background-image: url(../images/background-blur.png);
-    }
-
-    #footer h1 {
-        background-image: url(../images/background-blur.png);
     }
 
     .highlight {
@@ -90,9 +68,13 @@ html {
     }
 
     .card {
-        background-image: url(../images/background-xxl-blur.png);
+        background-image: url(../images/background-white.png);
     }
 
     .beam {
         background-image: url(../images/background-1.png);
+    }
+    
+    #consent {
+        background-image: url(../images/background-box.png);
     }

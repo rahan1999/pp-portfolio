@@ -1,19 +1,16 @@
 export default function Footer() {
   return (
-    <footer
-      id="footer"
-      className="flex w-[100%] flex-col items-center bg-cover bg-fixed bg-no-repeat"
-    >
+    <footer id="footer" className="flex w-[100%] flex-col items-center">
       <div className="box h-1 w-1"></div>
-      <h1 className="my-10 bg-cover bg-fixed bg-clip-text bg-no-repeat text-7xl text-transparent">
+      <h1 className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-7xl">
         KONTAKT
       </h1>
 
       <div
         id="contact"
-        className="mt-20 mb-14 h-auto w-[90%] rounded-[2rem] bg-black bg-cover bg-fixed bg-no-repeat p-5 shadow-lg md:w-1/2"
+        className="mt-10 mb-14 h-auto w-[90%] rounded-[2rem] bg-black bg-cover bg-fixed bg-no-repeat p-5 shadow-lg md:w-1/2"
       >
-        <div className="mt-10 flex w-full flex-col text-xl md:flex-row md:justify-around">
+        <div className="mt-10 flex w-full flex-col text-center text-xl">
           <p>
             <span className="highlight bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent">
               Tel.:
@@ -57,21 +54,22 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <p className="m-5 text-center">
-        „Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji
-        zgodnie z art. 6 ust. 1 lit. a Rozporządzeniem Parlamentu Europejskiego
-        i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób
-        fizycznych w związku z przetwarzaniem danych osobowych i w sprawie
-        swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
-        (ogólne rozporządzenie o ochronie danych)”.
-      </p>
-
-      <p
-        id="mark"
-        className="bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent"
+      <div
+        id="consent"
+        className="mb-3 w-[95%] rounded-[2rem] bg-cover bg-fixed bg-no-repeat text-center"
       >
-        &#169; 2023 Paweł Podolak
-      </p>
+        <p className="m-5">
+          „Wyrażam zgodę na przetwarzanie moich danych osobowych w celu
+          rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzeniem Parlamentu
+          Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w
+          sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
+          osobowych i w sprawie swobodnego przepływu takich danych oraz
+          uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie
+          danych)”.
+        </p>
+
+        <p>&#169; 2023 Paweł Podolak</p>
+      </div>
     </footer>
   );
 }
