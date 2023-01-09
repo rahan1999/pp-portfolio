@@ -9,7 +9,7 @@ export default function Portfolio() {
     >
       <div className="box h-1 w-1"></div>
       <div className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-7xl">
-        <h1 className="text-center text-7xl">PORTFOLIO</h1>
+        <h1 className="text-center text-5xl md:text-7xl">PORTFOLIO</h1>
       </div>
       <div className="card bg-no-repea mt-10 flex w-[90%] flex-col items-center rounded-[2rem] bg-cover bg-fixed py-8 px-3 text-center text-lg md:w-1/4 ">
         <svg

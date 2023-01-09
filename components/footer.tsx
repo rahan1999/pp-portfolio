@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer id="footer" className="flex w-[100%] flex-col items-center">
       <div className="box h-1 w-1"></div>
-      <h1 className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-7xl">
+      <h1 className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-5xl md:text-7xl">
         KONTAKT
       </h1>
 

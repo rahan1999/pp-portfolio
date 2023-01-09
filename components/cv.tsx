@@ -3,7 +3,7 @@ import Cvsection from "./cvSection";
 export default function Cv() {
   return (
     <section id="cv" className="flex flex-col items-center">
-      <h1 className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-7xl">
+      <h1 className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-5xl md:text-7xl">
         CV
       </h1>
       <Cvsection
