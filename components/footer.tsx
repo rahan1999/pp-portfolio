@@ -12,13 +12,13 @@ export default function Footer() {
       >
         <div className="mt-10 flex w-full flex-col text-center text-xl">
           <p>
-            <span className="highlight bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent">
+            <span className="highlight bg-auto bg-clip-text bg-center bg-no-repeat text-transparent">
               Tel.:
             </span>
             660 808 888
           </p>
           <p>
-            <span className="highlight bg-cover bg-fixed bg-clip-text bg-no-repeat text-transparent">
+            <span className="highlight bg-auto bg-clip-text bg-center bg-no-repeat text-transparent">
               E-mail.:
             </span>
             podolakpawe7@icloud.com

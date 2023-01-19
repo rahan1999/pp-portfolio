@@ -47,7 +47,7 @@ export default function Top() {
           <div className="my-10 flex justify-end text-lg md:my-0">
             <div className="topBox rounded-[2rem] bg-cover bg-fixed bg-no-repeat md:w-1/3">
               <h3 className="text-5xl md:p-5">
-                "Tworzę, ewoluuję, ulepszam - nie tylko design, ale i siebie. "
+                "Tworzę, ewoluuję, ulepszam - nie tylko projekt, ale i siebie. "
               </h3>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../images/logo.png";
@@ -14,45 +15,45 @@ let barPosition: string[] = [
 ];
 let barToggle: number = 0;
 
-const onView = (): void => {
-  const box = document.querySelectorAll(".box");
-
-  for (let i = 0; i < box.length; i++) {
-    let rect = box[i].getBoundingClientRect();
-
-    const isInViewport =
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth);
-
-    if (isInViewport === true) {
-      toggle(i);
-    }
-  }
-};
-
-const toggle = (id: number): void => {
-  let element = document.querySelectorAll(".top_menu");
-  let bar = document.getElementById("bar");
-  let remove = barPosition[barToggle];
-  let bufor = barPosition[id];
-
-  for (let i = 0; i < element.length; i++) {
-    element[i].classList.remove("font-extrabold");
-  }
-
-  bar.classList.remove(remove);
-
-  element[id].classList.add("font-extrabold");
-
-  bar.classList.add(bufor);
-
-  barToggle = id;
-};
-
 export default function Menu() {
+  const bar = useRef(null);
+
+  const onView = (): void => {
+    const box = document.querySelectorAll(".box");
+
+    for (let i = 0; i < box.length; i++) {
+      let rect = box[i].getBoundingClientRect();
+
+      const isInViewport =
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= window.innerHeight &&
+        rect.right <= window.innerWidth;
+
+      if (isInViewport === true) {
+        toggle(i);
+      }
+    }
+  };
+
+  const toggle = (id: number): void => {
+    let element = document.querySelectorAll(".top_menu");
+    let remove = barPosition[barToggle];
+    let bufor = barPosition[id];
+
+    for (let i = 0; i < element.length; i++) {
+      element[i].classList.remove("font-extrabold");
+    }
+
+    bar.current.classList.remove(remove);
+
+    element[id].classList.add("font-extrabold");
+
+    bar.current.classList.add(bufor);
+
+    barToggle = id;
+  };
+
   React.useEffect(() => {
     window.onscroll = function () {
       onView();
@@ -93,6 +94,7 @@ export default function Menu() {
           <div
             className="beam h-0.5 w-[20%] rounded bg-cover bg-fixed bg-no-repeat duration-1000"
             id="bar"
+            ref={bar}
           ></div>
         </div>
       </div>
