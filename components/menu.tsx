@@ -5,7 +5,7 @@ import Image from "next/image";
 import logo from "../images/logo.png";
 
 let menuClassList: string =
-  "duration-1000 w-[20%] text-center top_menu text-xs md:text-base bottom-0 hover:bottom-1 duration-1000 relative";
+  "translate duration-1000 w-[20%] text-center top_menu text-xs md:text-base bottom-0 hover:bottom-1 duration-1000 relative";
 let barPosition: string[] = [
   "ml-[0%]",
   "ml-[20%]",

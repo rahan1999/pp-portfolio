@@ -20,10 +20,10 @@ export default function About() {
         ></Image>
       </div>
       <div className="my-5 text-center md:w-3/5">
-        <h1 className="mb-7 bg-auto bg-clip-text bg-center bg-no-repeat text-7xl text-transparent">
+        <h1 className="translate mb-7 bg-auto bg-clip-text bg-center bg-no-repeat text-7xl text-transparent">
           Hej!
         </h1>
-        <h4 className="text-3xl">
+        <h4 className="translate text-3xl">
           Mam na imię Paweł i jestem studentem pierwszego roku Informatyki.
           Odkąd pamiętam technologia miała szczególne miejsce w moim szerokim
           kręgu zainteresowań. Uwielbiam obserwować ciągle rozwijający się

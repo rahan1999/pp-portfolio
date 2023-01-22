@@ -19,12 +19,12 @@ export default function Cvsection({ main, titles, descriptions }) {
   return (
     <div className="w-full pt-8">
       <div className="cvTitles sticky top-10 my-5 mx-auto w-fit rounded-[2rem] bg-cover bg-fixed bg-no-repeat py-1 px-4">
-        <h1 className="bg-auto bg-clip-text bg-center  bg-no-repeat text-center text-3xl text-transparent md:text-5xl">
+        <h1 className="translate bg-auto bg-clip-text bg-center  bg-no-repeat text-center text-3xl text-transparent md:text-5xl">
           {main}
         </h1>
       </div>
       <div className="cvSections my-8 ml-[2.5%] flex min-h-fit w-[95%] flex-col items-center justify-between rounded-[2rem] bg-cover bg-fixed bg-no-repeat">
-        <div className="mt-10 flex min-h-fit w-full flex-row flex-wrap justify-around gap-x-14 md:mt-0">
+        <div className="translate mt-10 flex min-h-fit w-full flex-row flex-wrap justify-around gap-x-14 md:mt-0">
           {contenttitle}
         </div>
       </div>

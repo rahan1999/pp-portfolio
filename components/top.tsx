@@ -16,8 +16,8 @@ export default function Top() {
           <div className="flex flex-col items-center md:my-10 md:flex-row">
             <div className="topBox my-10 flex flex-col justify-center rounded-[2rem] bg-cover bg-fixed bg-no-repeat p-5 md:my-0 md:mr-32 md:w-1/3">
               <div>
-                <h1 className="text-8xl">Hej!</h1>
-                <h3 className="mt-5 mb-7 text-4xl">
+                <h1 className="translate text-8xl">Hej!</h1>
+                <h3 className="translate mt-5 mb-7 text-4xl">
                   Zapraszam Cię do zapoznania się z moim CV
                 </h3>
               </div>
@@ -25,7 +25,7 @@ export default function Top() {
                 <div className="mx-1.5 flex w-36 flex-col items-center">
                   <Link
                     href="/#about"
-                    className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
+                    className="translate relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
                   >
                     WIĘCEJ
                   </Link>
@@ -34,7 +34,7 @@ export default function Top() {
                 <div className="mx-1.5 flex w-36 flex-col items-center">
                   <Link
                     href="/#footer"
-                    className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
+                    className="translate relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
                   >
                     KONTAKT
                   </Link>
@@ -46,7 +46,7 @@ export default function Top() {
           </div>
           <div className="my-10 flex justify-end text-lg md:my-0">
             <div className="topBox rounded-[2rem] bg-cover bg-fixed bg-no-repeat md:w-1/3">
-              <h3 className="text-5xl md:p-5">
+              <h3 className="translate text-5xl md:p-5">
                 "Tworzę, ewoluuję, ulepszam - nie tylko projekt, ale i siebie. "
               </h3>
             </div>

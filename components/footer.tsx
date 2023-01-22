@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer id="footer" className="flex w-[100%] flex-col items-center">
       <div className="box h-1 w-1"></div>
-      <h1 className="sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-5xl md:text-7xl">
+      <h1 className="translate sectionTitles mt-20 mb-5 rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-10 py-5 text-5xl md:text-7xl">
         KONTAKT
       </h1>
 
@@ -24,7 +24,9 @@ export default function Footer() {
             podolakpawe7@icloud.com
           </p>
         </div>
-        <p className="pt-8 pb-2 text-center text-lg">Zapraszam również na: </p>
+        <p className="translate pt-8 pb-2 text-center text-lg">
+          Zapraszam również na:{" "}
+        </p>
         <div className="flex w-full justify-around">
           <a href="https://github.com/rahan1999?tab=repositories">
             <svg
@@ -58,7 +60,7 @@ export default function Footer() {
         id="consent"
         className="mb-3 w-[95%] rounded-[2rem] bg-cover bg-fixed bg-no-repeat text-center"
       >
-        <p className="m-5">
+        <p className="translate m-5">
           „Wyrażam zgodę na przetwarzanie moich danych osobowych w celu
           rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzeniem Parlamentu
           Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w
