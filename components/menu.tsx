@@ -5,7 +5,7 @@ import Image from "next/image";
 import logo from "../images/logo.png";
 
 let menuClassList: string =
-  "translate duration-1000 w-[20%] text-center top_menu text-xs md:text-base bottom-0 hover:bottom-1 duration-1000 relative";
+  "duration-1000 w-[20%] text-center top_menu text-xs md:text-base bottom-0 md:hover:bottom-1 duration-1000 relative";
 let barPosition: string[] = [
   "ml-[0%]",
   "ml-[20%]",
@@ -74,19 +74,29 @@ export default function Menu() {
       <div className="flex w-full flex-col justify-evenly lg:w-3/4 ">
         <div className="flex flex-row justify-between align-middle">
           <div className={`font-extrabold ${menuClassList}`}>
-            <Link href="/#">TOP</Link>
+            <Link href="/#">
+              <p className="translate">TOP</p>
+            </Link>
           </div>
           <div className={menuClassList}>
-            <Link href="/#about">O MNIE</Link>
+            <Link href="/#about">
+              <p className="translate">O MNIE</p>
+            </Link>
           </div>
           <div className={menuClassList}>
-            <Link href="/#cv">CV</Link>
+            <Link href="/#cv">
+              <p className="translate">CV</p>
+            </Link>
           </div>
           <div className={menuClassList}>
-            <Link href="/#portfolio">PORTFOLIO</Link>
+            <Link href="/#portfolio">
+              <p className="translate">PORTFOLIO</p>
+            </Link>
           </div>
           <div className={menuClassList}>
-            <Link href="/#footer">KONTAKT</Link>
+            <Link href="/#footer">
+              <p className="translate">KONTAKT</p>
+            </Link>
           </div>
         </div>
         <div className="flex">

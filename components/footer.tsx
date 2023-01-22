@@ -25,7 +25,7 @@ export default function Footer() {
           </p>
         </div>
         <p className="translate pt-8 pb-2 text-center text-lg">
-          Zapraszam również na:{" "}
+          Zapraszam również na:
         </p>
         <div className="flex w-full justify-around">
           <a href="https://github.com/rahan1999?tab=repositories">

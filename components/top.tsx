@@ -17,6 +17,7 @@ export default function Top() {
             <div className="topBox my-10 flex flex-col justify-center rounded-[2rem] bg-cover bg-fixed bg-no-repeat p-5 md:my-0 md:mr-32 md:w-1/3">
               <div>
                 <h1 className="translate text-8xl">Hej!</h1>
+
                 <h3 className="translate mt-5 mb-7 text-4xl">
                   Zapraszam Cię do zapoznania się z moim CV
                 </h3>
@@ -25,18 +26,18 @@ export default function Top() {
                 <div className="mx-1.5 flex w-36 flex-col items-center">
                   <Link
                     href="/#about"
-                    className="translate relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
+                    className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
                   >
-                    WIĘCEJ
+                    <p className="translate">WIĘCEJ</p>
                   </Link>
                   <div className="beam mt-2 h-[2px] w-[90%] bg-cover  bg-fixed bg-no-repeat"></div>
                 </div>
                 <div className="mx-1.5 flex w-36 flex-col items-center">
                   <Link
                     href="/#footer"
-                    className="translate relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
+                    className="relative bottom-0 text-3xl font-black duration-1000 hover:bottom-1"
                   >
-                    KONTAKT
+                    <p className="translate">KONTAKT</p>
                   </Link>
                   <div className="beam mt-2 h-[2px] w-[90%] bg-cover  bg-fixed bg-no-repeat"></div>
                 </div>

@@ -24,7 +24,7 @@ export default function Cvsection({ main, titles, descriptions }) {
         </h1>
       </div>
       <div className="cvSections my-8 ml-[2.5%] flex min-h-fit w-[95%] flex-col items-center justify-between rounded-[2rem] bg-cover bg-fixed bg-no-repeat">
-        <div className="translate mt-10 flex min-h-fit w-full flex-row flex-wrap justify-around gap-x-14 md:mt-0">
+        <div className="mt-10 flex min-h-fit w-full flex-row flex-wrap justify-around gap-x-14 md:mt-0">
           {contenttitle}
         </div>
       </div>
