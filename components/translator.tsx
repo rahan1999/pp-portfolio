@@ -49,7 +49,7 @@ let translationOriginal: string[] = [];
 let translate;
 let translateSwitch: number = 0;
 
-export default function translator() {
+export default function Translator() {
   const bar = useRef(null);
 
   useEffect(() => {
@@ -83,7 +83,10 @@ export default function translator() {
   };
 
   return (
-    <div className="relative top-12 flex w-full flex-row justify-end">
+    <div
+      className="relative top-12 flex w-full flex-row justify-end"
+      data-testid="translator-1"
+    >
       <div
         className="topBox mr-5 w-1/5 cursor-pointer rounded-[2rem] bg-cover bg-fixed bg-no-repeat py-1 px-2 md:w-1/12"
         onClick={translateScript}

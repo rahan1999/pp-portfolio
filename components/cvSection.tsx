@@ -17,7 +17,7 @@ export default function Cvsection({ main, titles, descriptions }) {
   });
 
   return (
-    <div className="w-full pt-8">
+    <div className="w-full pt-8" data-testid="cvsection-1">
       <div className="cvTitles sticky top-10 my-5 mx-auto w-fit rounded-[2rem] bg-cover bg-fixed bg-no-repeat py-1 px-4">
         <h1 className="translate bg-auto bg-clip-text bg-center  bg-no-repeat text-center text-3xl text-transparent md:text-5xl">
           {main}

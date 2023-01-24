@@ -6,6 +6,7 @@ export default function About() {
     <section
       id="about"
       className="about flex min-h-fit items-center justify-around rounded-[2rem] bg-cover bg-fixed bg-no-repeat p-1 md:ml-[2.5%] md:w-[95%]"
+      data-testid="about-1"
     >
       <div className="box h-1 w-1"></div>
       <div

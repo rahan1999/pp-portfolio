@@ -64,6 +64,7 @@ export default function Menu() {
     <nav
       id="menu"
       className="fixed z-10 flex h-10 w-screen flex-row justify-around rounded-[2rem] bg-cover bg-fixed bg-no-repeat px-3 md:ml-[5%] md:w-[90%]"
+      data-testid="menu-1"
     >
       <Image
         src={logo}
