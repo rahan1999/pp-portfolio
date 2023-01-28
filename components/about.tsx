@@ -25,14 +25,14 @@ export default function About() {
           Hej!
         </h1>
         <h4 className="translate text-3xl">
-          Mam na imię Paweł i jestem studentem pierwszego roku Informatyki.
-          Odkąd pamiętam technologia miała szczególne miejsce w moim szerokim
-          kręgu zainteresowań. Uwielbiam obserwować ciągle rozwijający się
-          potencjał otaczających nas urządzeń i to jak powoli, lecz
-          systematyczne stają się nierozłącznym elementem naszej codzienności.
-          Smartphony, SmartTV, Smart-Lodówki czy wszelkiego rodzaju SmartWerable
-          to tylko kilka przykładów tego zjawiska a moja reakcja na to wszystko
-          to było zdecydowane „Muszę brać w tym udział!”. Nie tylko jako bierny
+          Mam na imię Paweł i jestem studentem Informatyki. Odkąd pamiętam
+          technologia miała szczególne miejsce w moim szerokim kręgu
+          zainteresowań. Uwielbiam obserwować ciągle rozwijający się potencjał
+          otaczających nas urządzeń i to jak powoli, lecz systematyczne stają
+          się nierozłącznym elementem naszej codzienności. Smartphony, SmartTV,
+          Smart-Lodówki czy wszelkiego rodzaju SmartWerable to tylko kilka
+          przykładów tego zjawiska a moja reakcja na to wszystko to było
+          zdecydowane „Muszę brać w tym udział!”. Nie tylko jako bierny
           konsument, ale jako współtwórca świata w którym wszystko jest ze sobą
           powiązane.
         </h4>
