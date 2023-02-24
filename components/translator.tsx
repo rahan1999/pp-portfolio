@@ -13,7 +13,7 @@ const translation: string[] = [
   "CONTACT",
   `"I create, evolve, improve - not only my project, but also my self"`,
   "Hi!",
-  `Hi, my name is Paweł. I'm a first year IT student. As long as I remember technology had a special place in my interests. I love to watch developing potential of devicest near us and how slowly, but systematically they become inseparable elements of our lives. Smartphones, SmartTVs, Smart-Refrigerators and all SmartWerable are just few examples of that phenomena and my reaction for all of that was "I nead to be a part of that proces!". Not only as passive consumer, but as co-creator of modern word where evrything is connected.`,
+  `Hi, my name is Paweł. I'm a IT student. As long as I remember technology had a special place in my interests. I love to watch developing potential of devicest near us and how slowly, but systematically they become inseparable elements of our lives. Smartphones, SmartTVs, Smart-Refrigerators and all SmartWerable are just few examples of that phenomena and my reaction for all of that was "I nead to be a part of that proces!". Not only as passive consumer, but as co-creator of modern word where evrything is connected.`,
   "Skills",
   "HTMJ, CSS and JS",
   "Three pillars of web applications. I took a time to achieve a deep understanding in each of them and be able to learn further technologies based on them.",
