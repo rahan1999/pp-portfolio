@@ -41,6 +41,7 @@ const translation: string[] = [
   "Technology",
   `I love digging into technical specs and comparing different products. I am always bothered by not obvious questions: "Which target group can this product be addressed to?", "What makes it outstand from the competition in this price range?" and most importantly: "Does it have haptic motors?"`,
   "This website was entirely designed and created by me with the usage of Next.js framework. Among my repositories you can browse my website's raw code as well as some other smaller programs I've written.",
+  "My task was to create a modern and elegant website for a small company. The main difficulties were the minimal amount of content to post and the slideshow-like UI. The source code is available on my GitHub.",
   "CONTACT",
   "I also invite you to:",
   "I consent to the processing of my personal data for the purpose of recruitment in accordance with art. 6 sec. 1 lit. and Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation )",
