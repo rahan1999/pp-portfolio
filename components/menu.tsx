@@ -6,13 +6,7 @@ import logo from "../images/logo.png";
 
 let menuClassList: string =
   "duration-1000 w-[20%] text-center top_menu text-xs md:text-base bottom-0 md:hover:bottom-1 duration-1000 relative";
-let barPosition: string[] = [
-  "ml-[0%]",
-  "ml-[20%]",
-  "ml-[40%]",
-  "ml-[60%]",
-  "ml-[80%]",
-];
+let barPosition: string[] = ["ml-[0%]", "ml-[20%]", "ml-[40%]", "ml-[60%]"];
 let barToggle: number = 0;
 
 export default function Menu() {
@@ -85,11 +79,6 @@ export default function Menu() {
             </Link>
           </div>
           <div className={menuClassList}>
-            <Link href="/#cv">
-              <p className="translate">CV</p>
-            </Link>
-          </div>
-          <div className={menuClassList}>
             <Link href="/#portfolio">
               <p className="translate">PORTFOLIO</p>
             </Link>
@@ -97,6 +86,11 @@ export default function Menu() {
           <div className={menuClassList}>
             <Link href="/#footer">
               <p className="translate">KONTAKT</p>
+            </Link>
+          </div>
+          <div className={menuClassList}>
+            <Link href="/Paweł_Podolak_CV_ENG.pdf" target={"_blank"}>
+              <p className="translate">CV</p>
             </Link>
           </div>
         </div>

@@ -11,7 +11,7 @@ export default function Cv() {
         titles="HTML, CSS i JS-React.js, Next.js-Tailwind, TypeScript-Komendy Unix-Affinity Designer-Git, GitHub-Angielski"
         descriptions="Trzy filary aplikacji webowych. Poświęciłem każdemu z nich należyty czas aby osiągnąć ich głębokie zrozumienie i móc zabrać się do nauki opartych na nich bibliotek.-Framework'i na których aktualnie jestem skupiony. Głęboko zafascynowały mnie one możliwościami jakie dają do tworzenia aplikacji webowych.-Wraz z Next.js są jednymi z nowszych narzędzi w moim arsenale do tworzenie responsywnych witryn internetowych.-Znam podstawy posługiwania się terminalem w systemach operacyjnych typu Linux czy MacOS.-Aktualnie mój ulubiony program do tworzenia grafiki komputerowej. To w nim tworze różne obrazki i projekty stron internetowych.-Umiem się posługiwać tymi popularnymi systemami do zarządzania wersją. Na GitHub zamieszczam też co ciekawsze napisane prze zemnie programy.-Staram się dbać o moje umiejętności posługiwania się najbardziej uniwersalnym językiem świata. Aktualnie mogę pochwalić się komunikatywnością na poziomie B1."
       ></Cvsection>
-      <div className="box h-1 w-1"></div>
+
       <Cvsection
         main="Zainteresowania"
         titles="Sport-Naprawa i konserwacja-Grafika komputerowa-Lego-Technologia"

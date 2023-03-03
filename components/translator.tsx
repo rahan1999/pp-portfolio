@@ -4,9 +4,9 @@ import { useRef } from "react";
 const translation: string[] = [
   "TOP",
   "ABOUT",
-  "CV",
   "PORTFOLIO",
   "CONTACT",
+  "CV",
   "Hi!",
   "I would like to invite you to familiarize yourself with my CV",
   "MORE",
