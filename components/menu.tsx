@@ -89,7 +89,7 @@ export default function Menu() {
             </Link>
           </div>
           <div className={menuClassList}>
-            <Link href="/Paweł_Podolak_CV_ENG.pdf" target={"_blank"}>
+            <Link href="/Paweł_Podolak_CV.pdf" target={"_blank"}>
               <p className="translate">CV</p>
             </Link>
           </div>

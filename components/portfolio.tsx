@@ -1,25 +1,24 @@
+import { StaticImageData } from "next/image";
 import * as React from "react";
-import Link from "next/link";
-import Image from "next/image";
 import github from "../images/github.png";
 import holdi from "../images/holdi.png";
 import Portfoliobox from "./portfolioBox";
 
 export default function Portfolio() {
-  let boxes = [];
+  let boxes: any[] = [];
 
-  const image = [github, holdi];
-  const title = ["GitHub", "Holdi"];
-  const desc = [
+  const image: StaticImageData[] = [github, holdi];
+  const title: string[] = ["GitHub", "Holdi"];
+  const desc: string[] = [
     "Ta witryna została w całości zaprojektowana i stworzona przeze mnie z wykorzystaniem frameworka Next.js. Wśród moich repozytoriów można przejrzeć surowy kod mojej witryny jak i również kilka innych mniejszych programów które napisałem.",
     "Moim zadaniem było stworzenie nowoczesnej i eleganckiej strony internetowej dla małej firmy. Głównymi trudnościami była minimalna ilość treści do zamieszczenia oraz UI przypominający pokaz slajdów. Kod źrudłowy jest dostępny na moim GitHubie.",
   ];
-  const href = [
+  const href: string[] = [
     "https://github.com/rahan1999?tab=repositories",
     "https://holdi.vercel.app",
   ];
 
-  for (let i = 0; i < image.length; i++) {
+  for (let i: number = 0; i < image.length; i++) {
     boxes.push(
       <Portfoliobox
         image={image[i]}
